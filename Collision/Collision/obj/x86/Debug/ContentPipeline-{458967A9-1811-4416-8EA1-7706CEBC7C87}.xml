@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Kiril\Desktop\Проекти\xna_games\Collision\Collision\Collision\bin\x86\Debug\Content\1.xnb</Output>
+      <Output>C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\bin\x86\Debug\Content\1.xnb</Output>
       <Time>2015-12-01T19:30:56.0281969+02:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Kiril\Desktop\Проекти\xna_games\Collision\Collision\Collision\bin\x86\Debug\Content\bat.xnb</Output>
+      <Output>C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\bin\x86\Debug\Content\bat.xnb</Output>
       <Time>2015-12-01T19:37:46.6266818+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -26,10 +26,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Kiril\Desktop\Проекти\xna_games\Collision\Collision\CollisionContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Kiril\Desktop\Проекти\xna_games\Collision\Collision\Collision\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Kiril\Desktop\Проекти\xna_games\Collision\Collision\Collision\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Kiril\Desktop\Проекти\xna_games\Collision\Collision\Collision\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Kiril\git\Hausaufgabe\Collision\CollisionContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

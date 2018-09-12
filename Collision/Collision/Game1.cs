@@ -32,7 +32,7 @@ namespace Collision
 
         Random myRandom = new Random();
 
-        Vector2 velocity;
+        static Vector2 velocity;
 
         int screenWidth;
         int screenHeight;
@@ -76,7 +76,7 @@ namespace Collision
         {
 
         }
-
+        public bool flag = false;
         protected override void Update(GameTime gameTime)
         {
             KeyboardState CurrentKeyboardState = Keyboard.GetState();
@@ -86,7 +86,30 @@ namespace Collision
                 batRectangle.X = batRectangle.X - 7;
             if (Keyboard.GetState().IsKeyDown(Keys.Right) && batRectangle.X<=693)
                 batRectangle.X = batRectangle.X + 7;
-            
+
+            //Escape and restart game
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
+            {
+                if(flag==false)
+                {
+                    flag = true;
+                    velocity.X = 0;
+                    velocity.Y = 0;
+                }
+                else
+                {
+                    flag = false;
+                    RandomLoad();
+                }
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.R))
+            {
+                LoadContent();
+                RandomLoad();
+                counter = 0;
+            }
+
+
             //Bat and Ball Interact
             if(ballRectangle.Intersects(batRectangle))
             {

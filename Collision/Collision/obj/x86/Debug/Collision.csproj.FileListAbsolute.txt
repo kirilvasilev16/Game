@@ -14,3 +14,11 @@ C:\Users\Kiril\Desktop\Проекти\xna_games\Collision\Collision\Collision\ob
 C:\Users\Kiril\Desktop\Проекти\xna_games\Collision\Collision\Collision\obj\x86\Debug\Collision.pdb
 C:\Users\Kiril\Desktop\Проекти\xna_games\Collision\Collision\Collision\bin\x86\Debug\Content\1.xnb
 C:\Users\Kiril\Desktop\Проекти\xna_games\Collision\Collision\Collision\bin\x86\Debug\Content\bat.xnb
+C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\bin\x86\Debug\Content\1.xnb
+C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\bin\x86\Debug\Content\bat.xnb
+C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\bin\x86\Debug\Collision.exe
+C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\bin\x86\Debug\Collision.pdb
+C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\obj\x86\Debug\Collision.csprojResolveAssemblyReference.cache
+C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\obj\x86\Debug\Collision.exe
+C:\Users\Kiril\git\Hausaufgabe\Collision\Collision\obj\x86\Debug\Collision.pdb

@@ -1,2 +1,3 @@
 C:\Users\Kiril\Desktop\xna_games\Collision\Collision\CollisionContent\obj\x86\Debug\CollisionContent.contentprojResolveAssemblyReference.cache
 C:\Users\Kiril\Desktop\Проекти\xna_games\Collision\Collision\CollisionContent\obj\x86\Debug\CollisionContent.contentprojResolveAssemblyReference.cache
+C:\Users\Kiril\git\Hausaufgabe\Collision\CollisionContent\obj\x86\Debug\CollisionContent.contentprojResolveAssemblyReference.cache
