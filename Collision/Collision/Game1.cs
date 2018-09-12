@@ -1,3 +1,10 @@
+/* Bouncing ball on C#
+ * Move the bath with Left and Right button
+ * Press R to restart game and  and escape to pause it
+ * Added random start after game is paused to prevent cheaters
+ * Speed is increasing each time the ball touches the bat till it reaches a set speed
+ * Added "breaking physics" feature to make the game harder
+ * */
 using System;
 using System.Runtime.InteropServices;
 using System.Collections.Generic;
@@ -114,7 +121,7 @@ namespace Collision
             if(ballRectangle.Intersects(batRectangle))
             {
                 velocity.Y = -velocity.Y;
-                velocity.Y = velocity.Y - 3f;
+                if (velocity.Y > -21f) { velocity.Y = velocity.Y - 3f; }
                 counter++;
             }
 
@@ -131,7 +138,8 @@ namespace Collision
 
             if (ballRectangle.Y <= 0) {
                 velocity.Y = -velocity.Y;
-                if (counter % 5 == 0 && counter != 0)  { velocity.X = -velocity.X; }
+                //breaking physics so that game is not so easy
+                if (counter % 6 == 0 && counter != 0)  { velocity.X = -velocity.X; }
                 }
 
             if (ballRectangle.Y + ballTexture.Height >= screenHeight)
@@ -143,6 +151,7 @@ namespace Collision
 
         void RandomLoad()
         {
+            //generate random head location
             int random = myRandom.Next(0, 4);
             if (random == 0)
             {
